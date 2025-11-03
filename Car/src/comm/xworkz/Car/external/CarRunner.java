@@ -1,5 +1,9 @@
 package comm.xworkz.Car.external;
 
+import comm.xworkz.Car.bridge.Brand;
+import comm.xworkz.Car.bridge.*;
+import comm.xworkz.Car.internal.*;
+
 public class CarRunner {
     public static void main(String[] args) {
         Car car = new CarImpl();
